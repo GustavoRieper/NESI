@@ -1,3 +1,149 @@
 body{
     margin: 0px;
 }
+.page1{
+    width: 80%;
+    margin-left: 10%;
+    transition: all 0.5s;
+}
+
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.slogan img{
+    width: 453px;
+    height: 204px;
+    position: relative;
+    margin-right: 40px;
+    transition: all 0.5s;
+}
+@media only screen and (max-width: 1257px){
+    .slogan img{
+        width: 300px;
+        height: 135px;
+        position: relative;
+        margin-right: 40px;
+        transition: all 0.5s;
+    }
+    .slogan h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        color: #042a4a;
+        font-weight: normal;
+        width: 40%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .slogan img{
+        width: 300px;
+        height: 135px;
+        position: absolute;
+        margin-left: 40px;
+        margin-top: -70px;
+        transition: all 0.5s;
+        
+    }
+    .slogan h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        margin-top: 135px;
+        color: #042a4a;
+        font-weight: normal;
+        width: 40%;
+        width: 100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    .contact{
+        text-align: left;
+        transition: all 0.5s;
+    }
+}
+.slogan h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    color: #042a4a;
+    font-weight: normal;
+    width: 40%;
+    width: 100%;
+    transition: all 0.5s;
+}
+.slogan h1 #row1{
+    padding-left: 20px;
+    border-left: solid 1px #042a4a;
+    transition: all 0.5s;
+}
+.slogan h1 #row2{
+    margin-left: 115px;
+    padding-right: 20px;
+    border-right: solid 1px #042a4a;
+}
+.contact{
+    text-align: right;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -40px;
+    transition: all 0.5s;
+}
+#ds_contact{
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+.contact img{
+    width: 20px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact img:hover{
+    width: 30px;
+    margin-top: 0px;
+    margin-left: 2px;
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+.content{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.box1{
+    width: 453px;
+    height: 397px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    background-color: #4f4b4c;
+}
+.box2, .box3{
+    width: 297px;
+    height: 306px;
+    margin-left: 16px;    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    background-color: #e6e7e9;
+    border-radius: 15px;
+}
+.box4{
+    width: 610px;
+    height: 74px;
+    margin-left: 16px;    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    background-color: #e6e7e9;
+    position: absolute;
+    bottom: -27px;
+    right: 10%;    
+}
+
+
