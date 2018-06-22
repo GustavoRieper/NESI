@@ -2,22 +2,28 @@
 nav{
     background-color: #042a4a;
     width: 100%;
-    height: 56px;
+    height: 40px;
     margin: 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    transition: all 0.5s;
 }
 nav ul{
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    margin-left: 10%;
+    transition: all 0.5s;
 }
 nav ul li{
     border-left: solid 1px #FFF;
     width: 112px; /* Desconfigurou o alinhamento */
     text-align: center;
+    margin-left: -40px;
+    margin-right: 40px;
+    transition: all 0.5s;
 }
 nav ul li a{
     text-decoration: none;
@@ -28,26 +34,28 @@ nav ul li a{
     font-size: 12px;
     font-weight: bold;
     transition: all 0.4s;
+    transition: all 0.5s;
 }
 nav ul li a:hover{
     color:#87c0de;
     transition: all 0.4s;
 }
 nav ul li input[type=text]{
-    margin-left: 50px;
     border: none;
-    width: 200px;
-    height: 23px;
+    width: 190px;
+    height: 18px;
     border-radius: 4px;
     position: absolute;
     font-family: 'Open Sans', sans-serif;
     padding-left: 5px; 
+    right: 10%;
+    transition: all 0.5s;
 }
 nav ul li input[type=button]{
     position: relative;
-    width: 30px;
-    height: 25px;
-    margin-left: 225px;
+    width: 25px;
+    height: 20px;
+    margin-left: 235%;
     background-image: url(../imagens/menu/lupa.png);
     background-size: 80%;
     border: none;
@@ -55,6 +63,7 @@ nav ul li input[type=button]{
     background-repeat: no-repeat;
     border-radius: 0px 4px 4px 0px;
     outline: none;
+    transition: all 0.5s;
 }
 nav ul li input[type=button]:hover{
     cursor: pointer;

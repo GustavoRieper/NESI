@@ -11,7 +11,7 @@
         <li><a href="">Portfólio</a></li>
         <li><a href="">Blog</a></li>
         <li style="border-right: solid 1px #FFF;"><a href="">CRM</a></li>    
-        <li style="border-left: none;">
+        <li style="border-left: none !important;">
                 <input type="text" name="pesquisa">
                 <input type="button" name="lupa" value="">
         </li>

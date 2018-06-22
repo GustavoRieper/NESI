@@ -16,7 +16,7 @@ body{
 }
 .slogan img{
     width: 453px;
-    height: 204px;
+    height: 218px;
     position: relative;
     margin-right: 40px;
     transition: all 0.5s;
@@ -44,14 +44,17 @@ body{
         height: 135px;
         position: absolute;
         margin-left: 40px;
-        margin-top: -70px;
         transition: all 0.5s;
-        
+        margin-top: -180px;
+    }
+    .slogan{
+        margin-top: 190px;
     }
     .slogan h1{
+        position: relative;
         font-family: 'Open Sans', sans-serif;
         font-size: 30px;
-        margin-top: 135px;
+        padding-bottom: 10px;
         color: #042a4a;
         font-weight: normal;
         width: 40%;
@@ -74,32 +77,33 @@ body{
     width: 40%;
     width: 100%;
     transition: all 0.5s;
+    margin-top: 0px;
 }
 .slogan h1 #row1{
     padding-left: 20px;
-    border-left: solid 1px #042a4a;
     transition: all 0.5s;
 }
 .slogan h1 #row2{
     margin-left: 115px;
     padding-right: 20px;
-    border-right: solid 1px #042a4a;
 }
 .contact{
     text-align: right;
     width: 80%;
     margin-left: 10%;
     margin-top: -40px;
+    font-family: 'Open Sans', sans-serif;
     transition: all 0.5s;
+    font-size: 15px;
 }
 #ds_contact{
     text-align: right;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 .contact img{
-    width: 20px;
+    width: 17px;
     position: absolute;
     margin-top: 3px;
     margin-left: 5px;
@@ -107,7 +111,7 @@ body{
     transition: all 0.5s;
 }
 .contact img:hover{
-    width: 30px;
+    width: 23px;
     margin-top: 0px;
     margin-left: 2px;
     transition: all 0.5s;
@@ -120,7 +124,7 @@ body{
     flex-wrap: wrap;
     justify-content:flex-end;  
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
     transition: all 0.5s;
 }
 .box1{
@@ -130,7 +134,7 @@ body{
     font-weight: normal;
     background-color: #4f4b4c;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     transition: all 0.5s;
 }
@@ -157,7 +161,7 @@ body{
 @media only screen and (max-width: 1350px){
     .box1{
         width: 50%;
-        margin-left: 25%;
+        margin-left: 28%;
         display: flex;
         position: relative;
         justify-content:center;
@@ -166,6 +170,11 @@ body{
     .content{
         justify-content:center;
         transition: all 0.5s;
+    }
+}
+@media only screen and (max-width: 1350px){
+    .box2, .box3{
+        margin-top: 16px;
     }
 }
 
