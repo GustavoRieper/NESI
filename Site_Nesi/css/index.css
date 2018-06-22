@@ -60,7 +60,9 @@ body{
         transition: all 0.5s;
     }
     .contact{
-        text-align: left;
+        text-align: center!important;
+        width: 100%!important;
+        margin-left: 0px !important;
         transition: all 0.5s;
     }
 }
@@ -114,16 +116,23 @@ body{
 .content{
     width: 100%;
     display: flex;
-    height: 500px;
+    height: 300px;;
     flex-wrap: wrap;
+    justify-content:flex-end;  
+    align-items: center;
     margin-top: 50px;
+    transition: all 0.5s;
 }
 .box1{
-    width: 453px;
+    width: 33%;
     height: 397px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     background-color: #4f4b4c;
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    transition: all 0.5s;
 }
 .box2, .box3{
     width: 297px;
@@ -133,6 +142,7 @@ body{
     font-weight: normal;
     background-color: #e6e7e9;
     border-radius: 15px;
+    transition: all 0.5s;
 }
 .box4{
     width: 610px;
@@ -141,9 +151,22 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     background-color: #e6e7e9;
-    position: absolute;
-    bottom: -27px;
-    right: 10%;    
+    margin-bottom: -100px;
+    transition: all 0.5s;
+}
+@media only screen and (max-width: 1350px){
+    .box1{
+        width: 50%;
+        margin-left: 25%;
+        display: flex;
+        position: relative;
+        justify-content:center;
+        transition: all 0.5s;
+    }
+    .content{
+        justify-content:center;
+        transition: all 0.5s;
+    }
 }
 
 
