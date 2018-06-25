@@ -17,3 +17,11 @@
         </li>
     </ul>
 </nav>
+<div class="slogan">
+                <img src="imagens/Logo_Pantone_RGB.png" title="NESI">
+                <h1><span id="row1"></span>|Somos a Inteligência<br><span id="row2">por trás da solução.|</span></h1>
+            </div>
+            <div class="contact">
+                <span id="ds_contact">Entre em contato conosco:</span><span id="contact"> +55 47 3026 8000 | ielusc@nesi.br |
+                <img src="imagens/face.png" title="Página do Facebook"></span>
+            </div>
