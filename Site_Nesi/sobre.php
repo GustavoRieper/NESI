@@ -2,8 +2,33 @@
 <html>
     <head>
     <link rel="stylesheet" type="text/css" href="css/sobre.css">
+        <style>
+            .slogan{
+                display: flex;
+                flex-wrap: nowrap!important;            
+                margin-bottom: 10px!important;
+            }
+            .slogan img{
+                width: 282px !important;
+                height: auto !important;
+            }
+            .slogan h1{
+                display: flex!important;
+                font-size: 35px!important;
+                text-align: center;
+                flex-wrap: nowrap!important;
+            }    
+            #row2{
+                margin-left: 6px!important;
+            }
+            .contact{
+                margin-left: 0% !important;
+            }
+        
+        </style>
     </head>
     <?php include 'menu.php'; ?>
+    <?php include 'slogan.php'; ?>
     <body class="sobreBody">        
         <div class="sobre">
             
