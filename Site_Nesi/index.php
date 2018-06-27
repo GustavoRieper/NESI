@@ -5,6 +5,7 @@
     </head>
     <body>
         <?php include 'menu.php'; ?>
+        <?php include 'slogan.php'; ?>
         <section class="page1">
             
             <div class="box1">

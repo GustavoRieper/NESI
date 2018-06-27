@@ -25,7 +25,6 @@ body{
     font-weight: normal;
     background-color: #4f4b4c;
     position: absolute;
-    margin-top: 30px;
     display: flex;
     transition: all 0.5s;
 }
