@@ -10,8 +10,8 @@
             margin-left: 10%;
         }
         .slogan img{
-            width: 453px;
-            height: 218px;
+            width: 448px;
+            height: 180px;
             position: relative;
             margin-right: 40px;
             transition: all 0.5s;
@@ -86,7 +86,6 @@
         .contact{
             text-align: right;
             width: 80%;
-            margin-left: 10%;
             margin-top: -40px;
             font-family: 'Open Sans', sans-serif;
             transition: all 0.5s;

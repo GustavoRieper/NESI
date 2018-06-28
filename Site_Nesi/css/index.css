@@ -20,16 +20,39 @@ body{
     align-items: center;
     margin-top: 30px;
     transition: all 0.5s;
+    margin-bottom: 115px;
 }
 .box1{
     width: 33%;
     height: 397px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    background-color: #4f4b4c;
+    background-color: #5b5b5f;
     position: absolute;
     display: flex;
     transition: all 0.5s;
+}
+.box1 #hr1{
+    width: 70%;
+    top: 10px;
+    margin-left: 15%;
+    position: absolute;
+}
+.box1 #hr2{
+    width: 70%;
+    margin-left: 15%;
+    position: absolute;
+    bottom: 10px;
+}
+.box1 p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .box2, .box3{
     width: 297px;
@@ -50,6 +73,117 @@ body{
     background-color: #e6e7e9;
     margin-bottom: -100px;
     transition: all 0.5s;
+    display: flex;
+    align-items: center;
+}
+.box2 img{
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+.box2 h2{
+    margin-top: 0px;
+    margin-left: 6%;
+    padding: 0px;
+    font-size: .8em;
+}
+.box2 p{
+    margin-top: 0px;
+    margin-left: 6%;
+    font-size: .7em;
+}
+.opc{
+    display: flex;
+    align-content:flex-end;
+}
+#opc1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #002c48;
+    margin-left: 75%;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#opc2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #002c48;
+    margin-right: 8px;
+    cursor: pointer;
+}
+#opc3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #002c48;
+    cursor: pointer;
+}
+.box3 img{
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+.box3 h2{
+    margin-top: 0px;
+    margin-left: 6%;
+    padding: 0px;
+    font-size: .8em;
+}
+.box3 p{
+    margin-top: 0px;
+    margin-left: 6%;
+    font-size: .7em;
+}
+#btn{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #002c48;
+    width: 20%;
+    height: 18px;
+    margin-left: 73%;
+
+}
+#btn a{
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+}
+#btn p{
+    font-size: .6em;
+    width: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.box4 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 3%;
+    font-size: .8em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#box_parc{
+    width: 80%;
+    height: 57px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+}
+#seta{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logoparceiro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.logoparceiro img{
+    width: 10%;
+    margin: 5px;
 }
 @media only screen and (max-width: 1350px){
     .box1{

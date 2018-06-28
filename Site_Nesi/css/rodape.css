@@ -1,0 +1,54 @@
+.caixarodape{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color: #e2e4e7;
+    position: absolute;
+}
+#logo{
+    width: 96px; 
+    background-color: #042a4a;
+    padding: 5px 25px 9px 25px;
+    margin-left: 10%;
+    position: absolute;
+}
+#caixalogo img{
+    width: 96px;
+}
+.caixarodape h3{
+    width: auto;
+    height: 25px;
+    margin: 0%;
+    padding-top: .7%;
+    padding-left: 2%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.8em;
+    position: relative;
+    margin-left: 20%;
+    transition: all 0.5s;
+}
+.caixarodape p{
+    width: auto;
+    height: 25px;
+    margin: 0px;
+    padding-top: .3%;
+    padding-left: 2%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 0.7em;
+    margin-left: 20%;
+    transition: all 0.5s;
+}
+@media only screen and (max-width: 1250px){
+    .caixarodape h3{
+        margin-left: 25%;
+        transition: all 0.5s;
+    }
+    .caixarodape p{
+        margin-left: 25%;
+        transition: all 0.5s;
+    }
+}
