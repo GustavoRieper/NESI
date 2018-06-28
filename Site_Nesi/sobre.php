@@ -28,13 +28,13 @@
         </style>
     </head>
     <?php include 'menu.php'; ?>
-    <?php include 'slogan.php'; ?>
+    <?php include 'slogan.php'; ?>   
     <body class="sobreBody">        
         <div class="sobre">
             
             <div class="conteudo">
-            <hr class ="lineTop"/>
-            <!--<div class="texto">-->
+            <!--<hr class ="lineTop"/>-->
+            <div class="texto">
                         <p class="textoP">Lorem ipsum aliquet mattis pellentesque bibendum sem ligula primis, 
                         leo aliquet amet gravida tristique fusce velit, nisi lorem tortor 
                         <br>ut velit vulputate nisl. hendrerit mi dui egestas habitasse platea 
@@ -74,9 +74,11 @@
                          hac ligula vitae lorem tempor fusce cursus fermentum enim taciti. 
                          hac ligula vitae lorem tempor fusce cursus fermentum enim taciti. 
                          hac ligula vitae lorem tempor fusce cursus fermentum enim taciti.</p>
-            <!--</div>-->
-            <hr class ="lineBottom"/>
             </div>
-        </div>
+            <!--<hr class ="lineBottom"/>-->
+            </div>
+        </div>   
+        <?php include 'rodape.php'; ?>     
     </body>
+    
 </html>
