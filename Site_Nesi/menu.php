@@ -6,7 +6,7 @@
     <ul>
         <li><a id="home" href="index.php">Home</a></li>
         <li><a id="sobre" href="sobre.php">Sobre</a></li>
-        <li><a id="contato" href="">Contato</a></li>
+        <li><a id="contato" href="contato.php">Contato</a></li>
         <li><a id="nosso_time" href="">Nosso Time</a></li>
         <li><a id="portfolio" href="">Portfólio</a></li>
         <li><a id="blog" href="">Blog</a></li>
