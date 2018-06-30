@@ -35,10 +35,17 @@
 }
 
 h1{
-    font-size: 1.1em ;
+    font-size: 1.08em ;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
+}
+
+.localizacao h1{
+    font-size: 1.08em ;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
 }
 
 h2{

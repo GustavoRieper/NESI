@@ -1,4 +1,7 @@
 <head>
+    <title>Nucleo Sistemas para Internet</title>
+    <link rel="icon" href="imagens/icone.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/menu.css">
 </head>
 

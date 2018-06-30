@@ -38,7 +38,7 @@
                 <h2>E-mail:<input type="email" name="Iemail" id="" placeholder=" seu@email.com" ></h2>
                 <h2>Mensagem:</h2>
                 <textarea name="Tmensagem" id=""  placeholder=" Mensagem" ></textarea><br>
-                <button>Enviar</button>
+                <button id="Benviar">Enviar</button>
             </div>  
 
             <div class="localizacao">
