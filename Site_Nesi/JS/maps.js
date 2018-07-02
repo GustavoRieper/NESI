@@ -28,7 +28,7 @@ function initialize() {
   
   
     // Marcador personalizado;
-    var image = 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/128/Map-Marker-Marker-Inside-Azure.png';//Incluir o icone no mapa
+    var image = src='imagens/sinal.png'; //'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/128/Map-Marker-Marker-Inside-Azure.png';//Incluir o icone no mapa
     var marcadorPersonalizado = new google.maps.Marker({
         position: myLatlng,
         map: map,

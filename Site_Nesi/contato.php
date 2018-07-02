@@ -36,7 +36,18 @@
                 <h1>Entre em contato conosco</h1>
                 <h2>Nome:<input type="text" name="Inome" placeholder=" Seu Nome" ></h2>
                 <h2>E-mail:<input type="email" name="Iemail" id="" placeholder=" seu@email.com" ></h2>
-                <h2>Mensagem:</h2>
+               <h2>Assunto:  
+                <select name="Sassunto">
+                <option value="" selected="selecione">Selecione o assunto</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="elogios">Elogios</option>
+                <option value="reclamacaos">Reclamações</option>
+                <option value="orcamento">Orçamento</option>
+                <option value="visita">Agendar visita</option>
+                <option value="sugestoes">Sugestões</option>
+                </select>
+                </h2>
+
                 <textarea name="Tmensagem" id=""  placeholder=" Mensagem" ></textarea><br>
                 <button id="Benviar">Enviar</button>
             </div>  
